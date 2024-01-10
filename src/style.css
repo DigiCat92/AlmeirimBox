@@ -679,7 +679,7 @@ button:focus:not(:focus-visible) {
 }
 
 .overlay {
-  background: rgba(128, 142, 176, 0.5);
+  background: rgba(121, 126, 139, 0.5);
   position: absolute;
   top: 0;
   right: 0;
