@@ -887,7 +887,7 @@ button:focus:not(:focus-visible) {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
-  background: var(--dark-color);
+  background: var(--primary-color);
   color: var(--white-color);
 }
 
