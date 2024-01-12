@@ -418,10 +418,10 @@ img.mfp-img {
   --section-bg-color: #f5f5f5;
   --border-color: #dee2e6;
   --dark-color: #000000;
-  --grey-color: #9f0303;
+  --red-color: #9f0303;
   --title-color: #565758;
   --p-color: #717275;
-  --footer-bg-color: #07262e;
+  --footer-bg-color: #000000;
 
   --body-font-family: "Karla", sans-serif;
 
@@ -703,7 +703,7 @@ button:focus:not(:focus-visible) {
 }
 
 .sticky-nav {
-  background: var(--white-color);
+  background: var(--dark-color);
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }
 
@@ -712,7 +712,7 @@ button:focus:not(:focus-visible) {
 }
 
 .sticky-nav .navbar-nav .nav-link {
-  color: var(--p-color);
+  color: var(--dark-color);
 }
 
 .navbar-brand {
@@ -864,9 +864,6 @@ button:focus:not(:focus-visible) {
   margin-bottom: 10px;
 }
 
-/*---------------------------------------
-  CUSTOM FORM               
------------------------------------------*/
 .custom-form .form-control {
   padding-top: 13px;
   padding-bottom: 13px;
@@ -909,78 +906,6 @@ button:focus:not(:focus-visible) {
   color: var(--dark-color);
 }
 
-/*---------------------------------------
-  PRICING PLANS               
------------------------------------------*/
-.pricing {
-  background-image: url("../images/maria-stewart-p4tj0g-_aMM-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-.pricing .container {
-  position: relative;
-  z-index: 2;
-}
-
-.pricing-plan {
-  padding: 60px 40px 40px 40px;
-  position: relative;
-}
-
-.pricing-header {
-  border-bottom: 1px solid #dee2e6;
-  padding-bottom: 30px;
-}
-
-.pricing-icon {
-  font-size: 45px;
-}
-
-.pricing-name {
-  margin-left: 50px;
-}
-
-.pricing-price {
-  margin-left: auto;
-}
-
-.pricing-recommend {
-  background: var(--primary-color);
-  color: var(--white-color);
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 10px 20px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.pricing-body {
-  margin-top: 60px;
-  margin-right: 50px;
-  margin-left: 95px;
-}
-
-.pricing-list {
-  padding-left: 15px;
-}
-
-.pricing-list-item {
-  color: var(--p-color);
-  font-size: var(--p-font-size);
-  font-weight: var(--font-weight-light);
-  line-height: normal;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-/*---------------------------------------
-  SERVICES               
------------------------------------------*/
 .services {
   background: var(--section-bg-color);
 }
@@ -998,9 +923,6 @@ button:focus:not(:focus-visible) {
   text-align: center;
 }
 
-/*---------------------------------------
-  SITE FOOTER              
------------------------------------------*/
 .site-footer {
   background: var(--footer-bg-color);
   padding-top: 100px;
@@ -1053,9 +975,6 @@ button:focus:not(:focus-visible) {
   font-size: var(--copyright-text-font-size);
 }
 
-/*---------------------------------------
-  SOCIAL ICON               
------------------------------------------*/
 .social-icon {
   margin: 0;
   padding: 0;
@@ -1080,9 +999,6 @@ button:focus:not(:focus-visible) {
   color: var(--primary-color);
 }
 
-/*---------------------------------------
-  RESPONSIVE STYLES               
------------------------------------------*/
 @media screen and (max-width: 991px) {
   body {
     padding-top: 80px;
@@ -1123,7 +1039,7 @@ button:focus:not(:focus-visible) {
   }
 
   .navbar {
-    background: var(--white-color);
+    background: var(--dark-color);
     padding-top: 5px;
     padding-bottom: 5px;
   }
@@ -1133,11 +1049,11 @@ button:focus:not(:focus-visible) {
   }
 
   .navbar-brand {
-    color: var(--dark-color);
+    color: var(--white-color);
   }
 
   .navbar-nav .nav-link {
-    color: var(--p-color);
+    color: var(--white-color);
     padding-top: 5px;
     padding-bottom: 5px;
   }
@@ -1150,45 +1066,5 @@ button:focus:not(:focus-visible) {
   .site-footer-bottom,
   .site-footer .social-icon {
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  h1 {
-    font-size: 36px;
-  }
-
-  h2 {
-    font-size: 32px;
-  }
-
-  .paddingText {
-    padding: 25px;
-  }
-
-  .pricing-plan {
-    padding: 60px 30px 20px 30px;
-  }
-
-  .pricing-header {
-    padding-bottom: 20px;
-  }
-
-  .pricing-body {
-    margin-top: 30px;
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .pricing-name,
-  .pricing-price {
-    margin-bottom: 0;
-  }
-
-  .pricing-price {
-    max-width: 45px;
-    margin-right: auto;
   }
 }
