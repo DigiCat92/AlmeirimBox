@@ -802,9 +802,6 @@ button:focus:not(:focus-visible) {
   top: 8px;
 }
 
-/*---------------------------------------
-  OUR WORK              
------------------------------------------*/
 .work-thumb {
   position: relative;
   overflow: hidden;
