@@ -1,377 +1,99 @@
-<!-- @format -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Crossfit Box in Almeirim - View our gym schedule, set up a trial class, and meet our trainers!" />
+  <meta name="author" content="Catarina Rodrigues" />
+  <title>Almeirim Box</title>
 
-    <meta
-      name="description"
-      content="Crossfit Box in Almeirim - View our gym schedule, set up a trial class with us, and meet our trainers!" />
-    <meta
-      name="author"
-      content="Catarina Rodrigues" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="src/style.css" rel="stylesheet" />
+</head>
 
-    <title>Almeirim Box</title>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg">
+    <div class="container">
+      <img src="pictures/almeirimbox.jpg" class="img-fluid" style="width: 5%;" alt="95% Smaller Image" />
+      <a href="index.html" class="navbar-brand">
+        <i class="bi-layers"></i> Almeirim Box
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-lg-5">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com" />
-
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap"
-      rel="stylesheet" />
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous" />
-
-    <link
-      href="src/style.css"
-      rel="stylesheet" />
-  </head>
-
-  <body>
-    <nav class="navbar fixed-top navbar-expand-lg">
+  <main>
+    <section class="hero d-flex justify-content-center align-items-center" id="section_1">
       <div class="container">
-          <img
-            src="pictures/almeirimbox.jpg"
-             class="img-fluid" style="width: 5%;" alt="95% Smaller Image"
-          />
-        <a
-          href="index.html"
-          class="navbar-brand">
-          <i class="bi-layers"></i> Almeirim Box
-        </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div
-          class="collapse navbar-collapse"
-          id="navbarNav">
-          <ul class="navbar-nav ms-lg-5">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="index.html"
-                >Home</a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="about.html"
-                >About Us</a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="contact.html"
-                >Contacts</a
-              >
-            </li>
-          </ul>
+        <div class="row">
+          <div class="col-lg-8 col-12">
+            <div class="heroText">
+              <h1 class="text-white mb-lg-5 mb-4">Your Cross and Functional Training in the heart of Ribatejo</h1>
+              <a class="custom-btn custom-bg-dark btn" href="contact.html">Contact Us</a>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
+      <div class="overlay"></div>
+    </section>
 
-    <main>
-      <section
-        class="hero d-flex justify-content-center align-items-center"
-        id="section_1">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-12">
-              <div class="heroText">
-                <h1 class="text-white mb-lg-5 mb-4">
-                  Your Cross and Functional Training in the heart of Ribatejo
-                </h1>
+    <section class="about section-padding" id="section_2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <h2 class="mb-5">Almeirim Box</h2>
+          </div>
 
-                 <a
-                  class="custom-btn custom-bg-dark btn"
-                  href="contact.html"
-                  >Contact Us</a
-                >
+          <div class="col-lg-4 col-12 ms-lg-auto mb-5 mb-lg-0">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-intro-tab" data-bs-toggle="tab" data-bs-target="#nav-intro" type="button" role="tab" aria-controls="nav-intro" aria-selected="true">Introduction</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Our Box</button>
+                <button class="nav-link" id="nav-faq-tab" data-bs-toggle="tab" data-bs-target="#nav-faq" type="button" role="tab" aria-controls="nav-faq" aria-selected="false">FAQs</button>
               </div>
+            </nav>
+          </div>
+
+          <div class="col-12">
+            <div class="tab-content" id="nav-tabContent">
+              <!-- Content for tabs goes here -->
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="overlay"></div>
-      </section>
-
-      <section
-        class="about section-padding"
-        id="section_2">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-12">
-              <h2 class="mb-5">Almeirim Box</h2>
-            </div>
-
-            <div class="col-lg-4 col-12 ms-lg-auto mb-5 mb-lg-0">
-              <nav>
-                <div
-                  class="nav nav-tabs"
-                  id="nav-tab"
-                  role="tablist">
-                  <button
-                    class="nav-link active"
-                    id="nav-intro-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#nav-intro"
-                    type="button"
-                    role="tab"
-                    aria-controls="nav-intro"
-                    aria-selected="true">
-                    Introduction
-                  </button>
-
-                  <button
-                    class="nav-link"
-                    id="nav-profile-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#nav-profile"
-                    type="button"
-                    role="tab"
-                    aria-controls="nav-profile"
-                    aria-selected="false">
-                    Our Box
-                  </button>
-
-                  <button
-                    class="nav-link"
-                    id="nav-faq-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#nav-faq"
-                    type="button"
-                    role="tab"
-                    aria-controls="nav-faq"
-                    aria-selected="false">
-                    FAQs
-                  </button>
-                </div>
-              </nav>
-            </div>
-
-            <div class="col-12">
-              <div
-                class="tab-content"
-                id="nav-tabContent">
-                <div
-                  class="tab-pane fade show active"
-                  id="nav-intro"
-                  role="tabpanel"
-                  aria-labelledby="nav-intro-tab">
-                  <div class="row">
-                    <div class="col-lg-6 col-12 mb-lg-0 mb-4">
-                      <img
-                        src="pictures/_N9A3393.jpg"
-                        class="img-fluid"
-                        alt="" />
-                    </div>
-
-                    <div class="col-lg-5 col-12 m-auto">
-                      <h3 class="mb-3">Embark on your fitness journey</h3>
-
-                      <p>
-                        Discover the ultimate fitness experience at Almeirim Box, your premier destination for Cross and Functional Training excellence! Unleash your full potential with our state-of-the-art facility, expert coaches, and dynamic workouts designed to elevate your fitness game. At Almeirim Box, we redefine traditional training, blending CrossFit and functional movements to sculpt a stronger, leaner, and more agile you.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="tab-pane fade"
-                  id="nav-profile"
-                  role="tabpanel"
-                  aria-labelledby="nav-profile-tab">
-                  <div class="row">
-                    <div class="col-lg-5 col-12 m-auto">
-                      <h3 class="mb-3">A Second Home</h3>
-
-                      <p>
-                        Join a community of like-minded individuals dedicated to pushing boundaries and achieving unparalleled results. Our customized programs cater to all fitness levels, ensuring a challenging yet supportive environment. With cutting-edge equipment and a commitment to personalized coaching, Almeirim Box empowers you to conquer your fitness goals.
-                      </p>
-
-          
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-lg-0 mt-4">
-                      <img
-                        src="pictures/CP_7932.jpg"
-                        class="img-fluid"
-                        alt="" />
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="tab-pane fade"
-                  id="nav-faq"
-                  role="tabpanel"
-                  aria-labelledby="nav-faq-tab">
-                  <div class="row">
-                    <div class="col-lg-6 col-12 mb-lg-0 mb-4">
-                      <img
-                        src="pictures/_N9A2808.jpg"
-                        class="img-fluid"
-                        alt="" />
-                    </div>
-
-                    <div class="col-lg-5 col-12 m-auto">
-                      <h3 class="mb-3">Frequenlty Asked Questions</h3>
-
-                      <div
-                        class="accordion"
-                        id="accordionGeneral">
-                        <div class="accordion-item">
-                          <h2
-                            class="accordion-header"
-                            id="headingOne">
-                            <button
-                              class="accordion-button collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#accordionGeneralOne"
-                              aria-expanded="true"
-                              aria-controls="accordionGeneralOne">
-                              What is Cross-Training ?
-                            </button>
-                          </h2>
-
-                          <div
-                            id="accordionGeneralOne"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="headingOne"
-                            data-bs-parent="#accordionGeneral">
-                            <div class="accordion-body">
-                              <p class="large-paragraph">
-                                <strong>Cross-Training </strong> is an exercise program that combines a variety of activities to help you attain your fitness objectives.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="accordion-item">
-                          <h2
-                            class="accordion-header"
-                            id="headingTwo">
-                            <button
-                              class="accordion-button collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#accordionGeneralTwo"
-                              aria-expanded="false"
-                              aria-controls="accordionGeneralTwo">
-                              What are the benefits of Cross-Training?
-                            </button>
-                          </h2>
-
-                          <div
-                            id="accordionGeneralTwo"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionGeneral">
-                            <div class="accordion-body">
-                              <p class="large-paragraph">
-                                Cross-Training has several benefits, including full body conditioning; improving skill, agility and balance; flexibility in training plans; and the opportunity to continue training while injured.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="accordion-item">
-                          <h2
-                            class="accordion-header"
-                            id="headingThree">
-                            <button
-                              class="accordion-button collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#accordionGeneralThree"
-                              aria-expanded="false"
-                              aria-controls="accordionGeneralThree">
-                              Is Cross-Training good for everyone?
-                            </button>
-                          </h2>
-
-                          <div
-                            id="accordionGeneralThree"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="headingThree"
-                            data-bs-parent="#accordionGeneral">
-                            <div class="accordion-body">
-                              <p class="large-paragraph">
-                                Want to reduce body fat, increase lean muscle mass and burn calories more efficiently? Cross-Training to the rescue! Cross-Training is a key component of overall health and fitness for everyone.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
- <footer class="site-footer">
+    <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-12 me-auto mb-4">
-            <h5 class="text-white mb-3">Adress</h5>
-            <p class="copyright-text tooplate-link">
-              R. Conde da Taipa nº33, 2080-067 Almeirim
-            </p>
+            <h5 class="text-white mb-3">Address</h5>
+            <p class="copyright-text tooplate-link">R. Conde da Taipa nº33, 2080-067 Almeirim</p>
           </div>
           <div class="col-lg-3 col-12 ms-auto">
             <div class="social-icon">
-          <a href="https://www.github.com/almeirmbox" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.instragram.com/almeirmbox" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://www.twitter.com/almeirmbox" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </div>
+              <a href="https://www.github.com/almeirmbox" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.instragram.com/almeirmbox" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.twitter.com/almeirmbox" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
           </div>
         </div>
       </div>
     </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://kit.fontawesome.com/f612b5371c.js"
-      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f612b5371c.js" crossorigin="anonymous"></script>
   </body>
 </html>
