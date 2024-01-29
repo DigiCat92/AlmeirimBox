@@ -217,3 +217,27 @@ footer .social-links a:hover {
     text-align: center;
   }
 }
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+a:hover {
+  color: #0a58ca;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
